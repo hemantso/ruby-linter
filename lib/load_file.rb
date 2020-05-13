@@ -9,7 +9,7 @@ class File
   def get_content(file)
     file_content = ''
     File.open(file, 'r') { |strings| file_content = strings.readlines.map(&:chomp) }
-    scanned_content = file_content { |string| StringScanner.new(string) }
+    scanned_content = file_content.collect { |string| StringScanner.new(string) }
 
     scanned_content
   end
