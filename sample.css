@@ -1,0 +1,50 @@
+body {color:blue; 
+font-size: 20px;
+}
+
+h5 {
+margin-bottom: 10px ;
+}
+
+#custom {
+height:100px
+}
+
+p {
+
+  font-size:25px;
+
+  
+  color: black;
+
+}
+
+p,h6 {
+
+  color: aliceblue;
+
+}
+
+.clone,h3,h4 {
+
+  color: black;
+  background-color: blue;
+  
+  }
+  
+  
+  
+  #purple{
+  
+  color: purple;
+  text-transform: uppercase ; 
+  
+  }
+  
+  #header {
+  
+  color:pink ;
+
+
+  
+  }

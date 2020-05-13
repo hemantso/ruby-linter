@@ -1,7 +1,7 @@
-class File
+class LoadFile
   attr_reader :file, :file_content
 
-  def intialize(file)
+  def initialize(file)
     @file = file
     @file_content = get_content(@file)
   end
@@ -14,3 +14,4 @@ class File
     scanned_content
   end
 end
+
