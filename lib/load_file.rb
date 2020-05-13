@@ -14,4 +14,3 @@ class LoadFile
     scanned_content
   end
 end
-
