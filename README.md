@@ -26,6 +26,25 @@ To get a local copy up and running follow these simple example steps.
 
 - To check for errors in your css file run the code `ruby bin/main.rb + path to css file`
 
+# How it works
+The linter scans through the css file and returns an error with the line number of where that error occurered. **This linter checks for line spacing errors and indentation errors**.
+The errors this linter checks for are errors like the following below:
+
+* Bad Code
+ `.body{color: blue}` this will result in an error because the linter is expecting a space after the selector `.body`, so it should look like this...
+* Good Code
+ `.body {color: blue}`
+
+* Bad Code
+ `.body {color:blue}` this will result in an error because the linter is expecting a space after the attribute `color:`, so it should look like this...
+* Good Code
+ `.body {color: blue}`
+
+* Bad Code
+ `.blue,p {height: 100px}` this will result in an error because the linter is expecting a space after the selector `.blue` before the next selector `p` so it should look like this...
+* Good Code
+ `.blue, p {height: 100px}`
+
 ## Screenshot of code output
 ![screenshot](./assets/result.png)
 
