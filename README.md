@@ -27,10 +27,10 @@ To get a local copy up and running follow these simple example steps.
 - To check for errors in your css file run the code `ruby bin/main.rb + path to css file`
 
 ## Screenshot of code output
-![screenshot](result.png)
+![screenshot](./assets/result.png)
 
 ## Screenshot of rspec output
-![screenshot](result2.png)
+![screenshot](./assets/result2.png)
 
 
 
