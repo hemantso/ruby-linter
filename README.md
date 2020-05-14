@@ -1,6 +1,6 @@
 # Ruby-linter
 
-> The project build a linter for CSS files that checks for line spacing errors in your code. The project is build using ruby with Rspect (TDD) testing for each method used in project.
+> The project build a linter for CSS files that checks for line spacing errors in your code. The project is build using ruby with Rspec (TDD) testing for each method used in project.
 
 ## Built With
 
