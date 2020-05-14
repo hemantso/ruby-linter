@@ -4,7 +4,7 @@
 
 ## Video presentation
 
-[![Video](./asset/loom-linter.png)](https://www.loom.com/share/5cbfbf5693f94c6dac5d3d4e336bad07)
+[![Video](./assets/loom-linter.png)](https://www.loom.com/share/5cbfbf5693f94c6dac5d3d4e336bad07)
 
 ## Built With
 
