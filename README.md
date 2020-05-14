@@ -2,6 +2,10 @@
 
 > The project build a linter for CSS files that checks for line spacing errors in your code. The project is build using ruby with Rspec (TDD) testing for each method used in project.
 
+## Video presentation
+
+[![Video](./asset/loom-linter.png)](https://www.loom.com/share/5cbfbf5693f94c6dac5d3d4e336bad07)
+
 ## Built With
 
 - Ruby
