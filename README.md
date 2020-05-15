@@ -53,6 +53,8 @@ The errors this linter checks for are errors like the following below:
 ![screenshot](./assets/result.png)
 
 ## Screenshot of rspec output
+- Testing for methods like `line_spacing_before`, `line_spacing_after`, `indentation_error` done using Rspec(TDD). 
+- To check output of tests run command in terminal: `rspec`
 ![screenshot](./assets/result2.png)
 
 
