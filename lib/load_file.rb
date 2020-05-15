@@ -6,6 +6,8 @@ class LoadFile
     @file_content = get_content(@file)
   end
 
+  private
+
   def get_content(file)
     file_content = ''
     File.open(file, 'r') { |strings| file_content = strings.readlines.map(&:chomp) }
